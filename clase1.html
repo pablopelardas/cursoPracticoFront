@@ -62,11 +62,25 @@
             text-align: center;
         }
 
-        .email-image{
-            width: 132px;
-            height: 132px;
-            border: radius 50%;
+        .form{
+            display:flex;
+            flex-direction:column;
+        }
+
+        .label{
+            font-size: var(--sm);
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+        .input {
             background-color: var(--text-input-field);
+            border: none;
+            border-radius: 8px;
+            height: 32px;
+            font-size: var(--md);
+            padding: 6px;
+            margin-bottom: 12px;
         }
 
         .primary-button{
@@ -91,7 +105,6 @@
                 display: block;
             }
         }
-
     </style>
 </head>
 <body>
